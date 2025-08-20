@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <12 0 1 2 3 4 5 17 42>;
             bindings = <&kp>, <&kp>;
